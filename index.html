@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <div class="design">
+        <button class="btn">Register</button>
+        <button class="btn" style="margin-right: 20px;">Login</button>
+    </div>
+    </header>
+    <div class="abc">
+        <h1 style="padding-top: 50px;">Blogs</h1>
+    </div>
+    <center>
+        <div class="one">
+        <img  class="img1" src="image1.jfif" alt="Article1">
+        <p class="Content1"><b style="font-size: 20px;"><i>Tittle:Harry Potter</i></b><br>Shortview:Harry Potter is a young wizard who discovers his magical heritage on his 11th birthday<br><button id="btn1">Read More</button></p>
+        
+    </div>
+    <div class="two">
+        <img  class="img2" src="image2.jpg" alt="Article1">
+        <p class="Content2"><b style="font-size: 20px;"><i>Tittle:Artifial Intelligence</i></b><br> Shortview:Artificial Intelligence (AI) is the branch of computer science<br><button id="btn2">Read More</button></p>
+    </div>
+    <div class="three">
+        <img  class="img3" src="image3.jfif" alt="Article1">
+        <p class="Content3"><b style="font-size: 20px;"><i>Tittle:Reconnect with nature</i></b><br> Shortview:How small Actions can Heal the Earth<br>
+            <button id="btn3">Read More</button></p>
+    </div>
+    </center>
+     <script>
+                window.onload = function() {
+            document.getElementById("btn1").addEventListener("click", function() {
+                window.location.href ="harry.html";
+            });
+
+            document.getElementById("btn2").addEventListener("click", function() {
+                window.location.href ="ai.html";
+            });
+
+            document.getElementById("btn3").addEventListener("click", function() {
+                window.location.href ="nature.html";
+            });
+        };
+            </script>
+
+            <div class="foot1">
+        <footer class="foot">
+            <button class="button">Show More</button>
+        </footer>
+    </div>
+    
+</body>
+</html>
