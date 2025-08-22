@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+           <button class="btn1">Login</button>
+           <button class="btn2">Sign up</button>
+        </div>
+    </header>
+    <div>
+            <center>
+                <h2 style="padding-top: 20px;"><em>Blogs</em></h2>
+            <h4 style="padding-top: 10px;padding-bottom: 30px;">Popular Books</h4>
+            </center>
+            <center>
+                    <div class="article1"> 
+                        <img  class=img1 src="book1.webp" alt="Article">
+                        <p class ="design" style="font-style: italic;background-color: white;">Book:"You Become What You Think" <br>
+                            Author:Shubham Kumar Singh <br> <button id="btn1"class="btn3">Read Now</button></p>
+                    </div>
+            </center>
+            <center>
+                    <div class="article2"> 
+                        <img  class=img2 src="book2.webp" alt="Article">
+                        <p class ="design" style="font-style: italic;background-color: white;">Book:"The Subtle Art of Not Giving a F*ck" <br>
+                            Author:Mark Manson <br> <button id="btn2" class="btn3">Read Now</button></p>
+                    </div>
+            </center>
+            <center>
+                    <div class="article3"> 
+                        <img  class=img3 src="book3.jpg" alt="Article">
+                        <p class ="design" style="font-style: italic;background-color: white;">Book:"A Court of Thorns and Roses" <br>
+                            Author:Sarah J. Maas<br> <button id="btn3"class="btn3">Read Now</button></p>
+                    </div>
+            </center>
+            <script>
+                window.onload = function() {
+            document.getElementById("btn1").addEventListener("click", function() {
+                window.location.href = "1.html";
+            });
+
+            document.getElementById("btn2").addEventListener("click", function() {
+                window.location.href = "2.html";
+            });
+
+            document.getElementById("btn3").addEventListener("click", function() {
+                window.location.href = "3.html";
+            });
+        };
+            </script>
+
+    </div>
+</body>
+</html>
